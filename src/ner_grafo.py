@@ -100,9 +100,9 @@ def extract_org_entities(text: str, nlp: spacy.Language) -> list[str]:
     """Extraio entidades do tipo ORG (organizações) de um texto com spaCy.
 
     Foco em ORG porque, no domínio financeiro, são as organizações
-    (empresas, bancos, fundos) que determinam o risco de contágio e a
-    centralidade no grafo de mercado. Filtro entidades com menos de 2
-    caracteres para eliminar falsos positivos comuns em corpus financeiro.
+    (empresas, bancos, fundos) que aparecem como nós relevantes no grafo
+    de coocorrência. Filtro entidades com menos de 2 caracteres para
+    eliminar falsos positivos comuns em corpus financeiro.
 
     Args:
         text: Texto bruto ou lematizado.
@@ -344,10 +344,9 @@ def build_knowledge_graph(
 def calculate_centrality(G: nx.Graph) -> dict[str, float]:
     """Calculo a centralidade de grau de cada nó.
 
-    A centralidade de grau responde diretamente à pergunta de negócio:
-    'Quais entidades têm maior risco de contágio sistêmico?' — nós com
-    centralidade alta são mencionados junto a mais contrapartes, logo
-    uma notícia negativa sobre eles impacta mais o portfólio.
+    A centralidade de grau responde à pergunta analítica da Rubrica 4:
+    quais entidades estão mais conectadas no grafo? Nós com centralidade
+    alta são mencionados junto a mais contrapartes no noticiário.
 
     Returns:
         Dict {node: degree_centrality} ordenado do maior para o menor.
@@ -363,12 +362,11 @@ def answer_business_question(
 ) -> pd.DataFrame:
     """Respondo a pergunta analítica central da Rubrica 4.
 
-    Pergunta: *Quais entidades apresentam maior risco de contágio
-    sistêmico para o portfólio da Gestora?*
+    Pergunta: *Quais entidades estão mais conectadas no grafo de coocorrência?*
 
-    A resposta é derivada do grafo: nós com alta centralidade de grau
-    são 'hubs' — qualquer choque de sentimento neles se propaga para
-    múltiplos outros ativos do grafo, ampliando o risco sistêmico.
+    A resposta é derivada do grafo: nós com alta centralidade de grau são
+    'hubs' — aparecem ao lado de muitas outras entidades no noticiário, então
+    concentram boa parte das coocorrências da rede.
 
     Args:
         G:          Grafo de conhecimento.
@@ -515,7 +513,7 @@ def plot_centrality_bar(
         [v / max(values) for v in values[::-1]]
     ))
     ax.set_xlabel("Centralidade de Grau")
-    ax.set_title(f"Top {top_n} Entidades por Centralidade — Risco de Contágio Sistêmico")
+    ax.set_title(f"Top {top_n} entidades por centralidade de grau")
 
     for bar, val in zip(bars, values[::-1]):
         ax.text(bar.get_width() + 0.002, bar.get_y() + bar.get_height() / 2,

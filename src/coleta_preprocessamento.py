@@ -3,19 +3,17 @@ src/coleta_preprocessamento.py
 ================================
 Pipeline de coleta (Fase 0) e pré-processamento linguístico (Fase 1) do FinNLP.
 
-NOTA DE ANONIMIZAÇÃO (Compliance corporativo):
-    Os dados utilizados neste pipeline são de fontes abertas e/ou sintéticas.
-    Qualquer informação de natureza corporativa sensível passou por processo
-    de anonimização antes da ingestão: nomes de entidades identificadoras,
-    valores financeiros específicos e referências a contrapartes reais foram
-    substituídos por equivalentes fictícios, em conformidade com as diretrizes
-    internas de governança de dados da Gestora.
+Nota de compliance:
+    Todo o corpus vem de fonte pública e citável (`financial_phrasebank`,
+    via Hugging Face). Nenhum dado corporativo real ou sensível é ingerido e
+    nenhuma instituição financeira real é nomeada.
 
-Estratégia de idiomas:
-    - Inglês (EN): corpus `financial_phrasebank` via Hugging Face,
-      com rótulos prontos (negative / neutral / positive).
-    - Português (PT-BR): web scraping de portal de notícias público,
-      complementando a evidência de coleta autônoma exigida na Rubrica 1.
+Corpus e idioma:
+    - Inglês (EN): corpus `financial_phrasebank` via Hugging Face, rotulado
+      (negative / neutral / positive) — é a base da análise.
+    - O módulo também tem um scraper PT-BR de portal público, como
+      demonstração de coleta autônoma (Rubrica 1). Na execução, o portal não
+      retornou artigos, então o scraper não é fonte da análise.
 
 Autor: Fabio Ferreira Figueiredo — INFNET / Pós-graduação em Sistemas
        Cognitivos e Linguagem Natural.
@@ -702,8 +700,8 @@ def run_pipeline(
 ) -> pd.DataFrame:
     """Executo as Fases 0 e 1 do FinNLP de ponta a ponta.
 
-    Esta função orquestra a coleta (scraping PT + phrasebank EN), a
-    consolidação do corpus, o pré-processamento bilíngue e a geração dos
+    Esta função orquestra a coleta (tentativa de scraping PT + phrasebank EN), a
+    consolidação do corpus, o pré-processamento do texto em inglês e a geração dos
     artefatos visuais. Prefiro ter uma função de orquestração separada para
     que o notebook possa chamar etapas individualmente — mais pedagógico
     para a avaliação da Rubrica 1.

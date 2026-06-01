@@ -13,9 +13,8 @@ Lógica de versionamento (SCD2 Upsert):
        status_ativo=0) + INSERT de novo registro com data_inicio=hoje.
     3. Se o sentimento não mudou → apenas atualiza o score de centralidade.
 
-Esta abordagem permite análises de "time travel": a Gestora pode visualizar
-como o sentimento de uma entidade evoluiu ao longo do tempo, viabilizando
-o backtesting de teses de investimento.
+Esta abordagem permite consultar o estado histórico do pipeline em qualquer
+ponto no tempo: como o sentimento de uma entidade evoluiu entre execuções.
 
 Autor: Fabio Ferreira Figueiredo — INFNET / Pós-graduação em Sistemas
        Cognitivos e Linguagem Natural.
@@ -290,8 +289,7 @@ def run_scd2_batch(
 def query_current_status(engine) -> pd.DataFrame:
     """Retorno a visão atual de todas as entidades (status_ativo=1).
 
-    Esta é a consulta mais usada pela equipe de estratégia:
-    'Qual o sentimento atual de cada ativo monitorado?'
+    Responde à pergunta: qual o sentimento atual de cada entidade monitorada?
 
     Returns:
         DataFrame com o estado atual de todas as entidades.
@@ -318,8 +316,8 @@ def query_current_status(engine) -> pd.DataFrame:
 def query_entity_history(engine, nome_entidade: str) -> pd.DataFrame:
     """Retorno o histórico completo de versões de uma entidade.
 
-    Permite a análise de 'time travel': ver como o sentimento de uma
-    entidade evoluiu ao longo do tempo — essencial para backtesting.
+    Permite consultar como o sentimento de uma entidade evoluiu ao longo
+    do tempo, percorrendo as versões registradas pelo SCD2.
 
     Args:
         engine:        Engine SQLAlchemy.
@@ -356,8 +354,8 @@ def plot_sentiment_timeline(
 ) -> None:
     """Ploto a linha do tempo de sentimento de uma entidade.
 
-    Visualiza o valor do SCD2: mostra quando e como o sentimento mudou,
-    evidenciando o rastreamento histórico para a equipe de estratégia.
+    Mostra quando e como o sentimento mudou, evidenciando o rastreamento
+    histórico mantido pelo SCD2.
 
     Args:
         engine:        Engine SQLAlchemy.

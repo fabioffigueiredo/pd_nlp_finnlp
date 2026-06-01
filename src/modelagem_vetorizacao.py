@@ -229,11 +229,10 @@ def run_search_demo(
     preprocess_fn: Any,
     queries: list[str] = SEARCH_QUERIES,
 ) -> pd.DataFrame:
-    """Demonstro o motor de busca com as 3 queries de performance attribution.
+    """Demonstro o motor de busca com 3 consultas de análise financeira.
 
-    As queries foram escolhidas para representar 3 teses analíticas típicas
-    de uma diretoria de estratégia: impacto cambial, risco de crédito e
-    atribuição de retorno por setor.
+    As queries cobrem três temas distintos do corpus: impacto cambial,
+    risco de crédito e crescimento de resultados por setor.
 
     Returns:
         DataFrame com os resultados das 3 buscas para exibição no notebook.
