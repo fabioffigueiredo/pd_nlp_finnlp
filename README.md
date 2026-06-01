@@ -22,21 +22,20 @@
   </p>
 </div>
 
-> **Projeto acadêmico.** O cliente ("Gestão do Fundo") é **fictício e genérico** —
-> nenhuma instituição financeira real é referenciada. Os dados são públicos
-> (`financial_phrasebank`, via Hugging Face) e/ou sintéticos; quaisquer trechos
-> de fontes corporativas foram **anonimizados** antes do processamento.
+> **Projeto acadêmico.** Todo o corpus vem de uma fonte pública e citável
+> (`financial_phrasebank`, via Hugging Face). Nenhum dado corporativo real ou
+> sensível foi ingerido, e nenhuma instituição financeira real é nomeada. O cliente
+> "Gestão do Fundo" é fictício e serve apenas como contexto de negócio à análise.
 
 ---
 
 ## Visão Geral do Projeto
 
-O **FinNLP** é um pipeline _end-to-end_ de Processamento de Linguagem Natural que
-transforma notícias e relatórios financeiros brutos em inteligência acionável para
-a **Diretoria de Estratégia de um fundo de investimentos**. O sistema classifica o
-sentimento de mercado (Risco/Oportunidade), descobre temas latentes, implementa
-busca semântica e constrói um grafo de conhecimento entre entidades do mercado,
-com versionamento histórico via **SCD Tipo 2**.
+O **FinNLP** é um pipeline _end-to-end_ de Processamento de Linguagem Natural,
+desenvolvido como projeto acadêmico, que processa notícias financeiras em inglês.
+O sistema classifica o sentimento (negativo / neutro / positivo), descobre temas
+latentes, implementa busca semântica e constrói um grafo de coocorrência entre
+entidades extraídas do corpus, com versionamento histórico via **SCD Tipo 2**.
 
 A solução parte do texto bruto e percorre toda a progressão analítica:
 pré-processamento linguístico → representação vetorial → modelagem e classificação
@@ -47,16 +46,17 @@ reprodutibilidade e a interpretabilidade das decisões técnicas.
 
 ## O Corpus
 
-Estratégia **bilíngue** combinando duas fontes complementares:
+A análise usa o **[financial_phrasebank](https://huggingface.co/datasets/financial_phrasebank)**
+(config `sentences_allagree`): **2.264 sentenças em inglês**, rotuladas por analistas
+(*negative / neutral / positive*). É um benchmark público de sentimento financeiro,
+com volume acima do mínimo de **1.000 documentos** e densidade alta de entidades nomeadas.
+O conteúdo é noticiário corporativo nórdico (muitas empresas finlandesas), o que reaparece
+nos tópicos do LDA e nos hubs do grafo.
 
-- **[financial_phrasebank](https://huggingface.co/datasets/financial_phrasebank)** (inglês):
-  4.845 sentenças financeiras rotuladas por analistas de mercado
-  (*negative / neutral / positive*) — benchmark de referência para sentimento financeiro.
-- **Web scraping PT-BR** (Agência Brasil): demonstra a coleta autônoma com
-  `requests` + `BeautifulSoup`.
-
-A combinação garante o mínimo de **1.000 documentos**, **2+ classes** comparáveis e
-presença de **entidades nomeadas** do domínio financeiro.
+O pipeline também inclui um scraper próprio (`requests` + `BeautifulSoup`) apontado para a
+Agência Brasil, como demonstração de coleta autônoma. **Na execução, o seletor não retornou
+artigos**, então toda a análise roda sobre o `financial_phrasebank` em inglês — o scraper fica
+no projeto como capacidade demonstrada, não como fonte de dados.
 
 ---
 
@@ -78,8 +78,8 @@ todo o ciclo do pipeline, organizado pelas **5 rubricas** da disciplina:
    com spaCy, padrões via **RegEx**, normalização por **distância de Levenshtein**,
    grafo de conhecimento **NetworkX (≥ 20 nós)** com centralidade de grau e
    **SCD Tipo 2** (SQLAlchemy/SQLite) para versionar o histórico de sentimento.
-5. **Comunicação (Rubrica 5)** — síntese executiva em linguagem não técnica,
-   reprodutibilidade (`random_state=42`) e discussão de limitações.
+5. **Comunicação (Rubrica 5)** — síntese em linguagem acessível,
+   reprodutibilidade (`random_state=42`) e discussão honesta das limitações.
 
 ### Artefatos de Entrega
 
@@ -97,7 +97,7 @@ todo o ciclo do pipeline, organizado pelas **5 rubricas** da disciplina:
 ## Estrutura do Repositório
 
 ```
-pd-nlp-finnlp/
+pd_nlp_finnlp/
 ├── notebooks/
 │   └── FinNLP_Pipeline.ipynb     # Notebook principal (executado end-to-end)
 ├── src/                          # Módulos do pipeline (importados pelo notebook)
@@ -143,7 +143,6 @@ uv pip install -r requirements.txt
 
 ```bash
 python -m spacy download en_core_web_sm
-python -m spacy download pt_core_news_sm
 ```
 
 ### 4. Executar o notebook
