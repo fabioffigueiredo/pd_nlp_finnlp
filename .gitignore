@@ -1,0 +1,23 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# --- Dados brutos (corpus baixado em runtime via Hugging Face) ---
+data/raw/
+
+# --- Artefatos de tracking MLflow ---
+mlruns/
+mlartifacts/
+
+# --- Sistema operacional ---
+.DS_Store
+
+# NOTA: os artefatos de entrega (reports/images/*, reports/*.pdf,
+# data/processed/*.gexf, data/db/*.sqlite) sao versionados de proposito,
+# para que o avaliador os veja no GitHub sem precisar executar o notebook.

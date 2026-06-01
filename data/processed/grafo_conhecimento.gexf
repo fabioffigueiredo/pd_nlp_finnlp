@@ -1,0 +1,1895 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-05-30">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="Weight" type="long" />
+    </attributes>
+    <nodes>
+      <node id="K+S Group" label="K+S Group" />
+      <node id="Ryobi Technologies , Inc." label="Ryobi Technologies , Inc." />
+      <node id="Fiskars Corporation" label="Fiskars Corporation" />
+      <node id="CapMan" label="CapMan" />
+      <node id="CapMan Life Science" label="CapMan Life Science" />
+      <node id="CapMan Technology" label="CapMan Technology" />
+      <node id="CapMan Buyout" label="CapMan Buyout" />
+      <node id="Husqvarna Outdoor Products Inc." label="Husqvarna Outdoor Products Inc." />
+      <node id="BBH" label="BBH" />
+      <node id="Baltic Beverages Holding" label="Baltic Beverages Holding" />
+      <node id="Fiskars Brands" label="Fiskars Brands" />
+      <node id="Black &amp; Decker Corporation" label="Black &amp; Decker Corporation" />
+      <node id="Aktia" label="Aktia" />
+      <node id="EUR" label="EUR" />
+      <node id="EUR 11.4" label="EUR 11.4" />
+      <node id="Board" label="Board" />
+      <node id="State" label="State" />
+      <node id="the State of Finland" label="the State of Finland" />
+      <node id="Slovakia" label="Slovakia" />
+      <node id="Statistics Office" label="Statistics Office" />
+      <node id="CapMan Plc 's" label="CapMan Plc 's" />
+      <node id="Company" label="Company" />
+      <node id="Minister for Local Government" label="Minister for Local Government" />
+      <node id="TeliaSonera" label="TeliaSonera" />
+      <node id="Financial Markets" label="Financial Markets" />
+      <node id="Okmetic" label="Okmetic" />
+      <node id="Vantaa" label="Vantaa" />
+      <node id="Satama" label="Satama" />
+      <node id="Trainers" label="Trainers" />
+      <node id="Adak Projects" label="Adak Projects" />
+      <node id="NSR" label="NSR" />
+      <node id="Avalon Minerals Ltd." label="Avalon Minerals Ltd." />
+      <node id="Comptel" label="Comptel" />
+      <node id="OSS" label="OSS" />
+      <node id="Cencorp" label="Cencorp" />
+      <node id="Savcor" label="Savcor" />
+      <node id="FACE" label="FACE" />
+      <node id="Gibtelecom" label="Gibtelecom" />
+      <node id="House" label="House" />
+      <node id="Aalto University" label="Aalto University" />
+      <node id="Vaasa" label="Vaasa" />
+      <node id="Componenta" label="Componenta" />
+      <node id="EUR76" label="EUR76" />
+      <node id="E36 .4 million" label="E36 .4 million" />
+      <node id="Lemminkainen Infra Oy 's" label="Lemminkainen Infra Oy 's" />
+      <node id="Lemminkainen Sverige AB" label="Lemminkainen Sverige AB" />
+      <node id="Lemminkainen Talotekniikka Oy" label="Lemminkainen Talotekniikka Oy" />
+      <node id="Turun" label="Turun" />
+      <node id="Rautaruukki" label="Rautaruukki" />
+      <node id="YIT" label="YIT" />
+      <node id="Finnair" label="Finnair" />
+      <node id="Manchester" label="Manchester" />
+      <node id="HKScan Group" label="HKScan Group" />
+      <node id="+àm+Ñl Components" label="+àm+Ñl Components" />
+      <node id="the Finnish Componenta Group" label="the Finnish Componenta Group" />
+      <node id="StoneGate" label="StoneGate" />
+      <node id="RAIVV" label="RAIVV" />
+      <node id="EUR 16.4 million" label="EUR 16.4 million" />
+      <node id="Cargotec Oyj" label="Cargotec Oyj" />
+      <node id="MacGregor" label="MacGregor" />
+      <node id="Dibba , Emirate of Fujairah" label="Dibba , Emirate of Fujairah" />
+      <node id="Tanqia Dibba FZC" label="Tanqia Dibba FZC" />
+      <node id="POY" label="POY" />
+      <node id="EVP" label="EVP" />
+      <node id="Healthcare &amp; Welfare" label="Healthcare &amp; Welfare" />
+      <node id="the New York Liberty" label="the New York Liberty" />
+      <node id="the New York Rangers" label="the New York Rangers" />
+      <node id="the New York Knickerbockers" label="the New York Knickerbockers" />
+      <node id="CapMan Public Market" label="CapMan Public Market" />
+      <node id="the OMX Nordic Exchanges" label="the OMX Nordic Exchanges" />
+      <node id="the Stockholm Stock Exchange" label="the Stockholm Stock Exchange" />
+      <node id="CapMan Plc Press" label="CapMan Plc Press" />
+      <node id="Cablevision Systems Corp." label="Cablevision Systems Corp." />
+      <node id="the Hartford Wolf Pack" label="the Hartford Wolf Pack" />
+      <node id="Ahold USA" label="Ahold USA" />
+      <node id="CVS" label="CVS" />
+      <node id="EUR 3bn" label="EUR 3bn" />
+      <node id="EUR 30.000" label="EUR 30.000" />
+      <node id="Ragot" label="Ragot" />
+      <node id="VMC" label="VMC" />
+      <node id="the European Aeronautic Defense and Space Company EADS N.V." label="the European Aeronautic Defense and Space Company EADS N.V." />
+      <node id="Avesta and Plate Service Centre Nordic" label="Avesta and Plate Service Centre Nordic" />
+      <node id="Special Plate" label="Special Plate" />
+      <node id="Pressplate" label="Pressplate" />
+      <node id="the Board of Directors" label="the Board of Directors" />
+      <node id="Samsung" label="Samsung" />
+      <node id="Samsung Mobile Innovator" label="Samsung Mobile Innovator" />
+      <node id="S Group 's" label="S Group 's" />
+      <node id="Sanoma Corporation 's" label="Sanoma Corporation 's" />
+      <node id="Group" label="Group" />
+      <node id="HKScan" label="HKScan" />
+      <node id="United Supermarkets , Market Street" label="United Supermarkets , Market Street" />
+      <node id="United Supermercado" label="United Supermercado" />
+      <node id="Alma Media 's" label="Alma Media 's" />
+      <node id="EUR 4.88" label="EUR 4.88" />
+      <node id="F-Secure" label="F-Secure" />
+      <node id="Internet Service Providers" label="Internet Service Providers" />
+      <node id="Pohjola Bank Plc HEL" label="Pohjola Bank Plc HEL" />
+      <node id="VIII-2010 Pohjola Research" label="VIII-2010 Pohjola Research" />
+      <node id="Aspo" label="Aspo" />
+      <node id="Nokia Siemens Networks" label="Nokia Siemens Networks" />
+      <node id="Elcoteq 's Electronics Manufacturing Services" label="Elcoteq 's Electronics Manufacturing Services" />
+      <node id="Manufacturing and Fulfillment" label="Manufacturing and Fulfillment" />
+      <node id="Ahlstrom Corporation" label="Ahlstrom Corporation" />
+      <node id="HSEA" label="HSEA" />
+      <node id="The Stena Poseidon" label="The Stena Poseidon" />
+      <node id="the Panama Canal 's" label="the Panama Canal 's" />
+      <node id="ABB Oy 's" label="ABB Oy 's" />
+      <node id="Mr Skogster" label="Mr Skogster" />
+      <node id="Kemira" label="Kemira" />
+      <node id="NordAlu" label="NordAlu" />
+      <node id="Nokia" label="Nokia" />
+      <node id="Nokia Siemens '" label="Nokia Siemens '" />
+      <node id="Innovation and Health" label="Innovation and Health" />
+      <node id="N96" label="N96" />
+      <node id="Finnish Sanoma Learning &amp; Literature" label="Finnish Sanoma Learning &amp; Literature" />
+      <node id="Pellissier" label="Pellissier" />
+      <node id="AV-Comparatives" label="AV-Comparatives" />
+      <node id="Bhushan Steel and Strips Ltd." label="Bhushan Steel and Strips Ltd." />
+      <node id="HELSINKI AFX - KCI Konecranes" label="HELSINKI AFX - KCI Konecranes" />
+      <node id="Vaahto Pulp &amp; Paper" label="Vaahto Pulp &amp; Paper" />
+      <node id="the Ingerois Board Mill" label="the Ingerois Board Mill" />
+      <node id="Finnish Vaahto Group" label="Finnish Vaahto Group" />
+      <node id="POH1S" label="POH1S" />
+      <node id="Airtel" label="Airtel" />
+      <node id="Tata" label="Tata" />
+      <node id="Poyry Plc" label="Poyry Plc" />
+      <node id="NYSE" label="NYSE" />
+      <node id="British Airways" label="British Airways" />
+      <node id="OneWorld" label="OneWorld" />
+      <node id="American Airlines" label="American Airlines" />
+      <node id="Wholesale Club" label="Wholesale Club" />
+      <node id="Cumberland Farms" label="Cumberland Farms" />
+      <node id="ASSA ABLOY Kaupthing Bank" label="ASSA ABLOY Kaupthing Bank" />
+      <node id="Assa Abloy AB" label="Assa Abloy AB" />
+      <node id="Goodwill" label="Goodwill" />
+      <node id="EQT" label="EQT" />
+      <node id="Salcomp" label="Salcomp" />
+      <node id="EMS" label="EMS" />
+      <node id="National Endowment for the Arts" label="National Endowment for the Arts" />
+      <node id="the Institute of Museum and Library Services" label="the Institute of Museum and Library Services" />
+      <node id="Pertti Ervi" label="Pertti Ervi" />
+      <node id="Rapala" label="Rapala" />
+      <node id="Saint Marcel" label="Saint Marcel" />
+      <node id="Executive Committee" label="Executive Committee" />
+      <node id="Articles of Association" label="Articles of Association" />
+      <node id="Service Credit Union" label="Service Credit Union" />
+      <node id="the Defense Credit Union Council" label="the Defense Credit Union Council" />
+      <node id="NDA" label="NDA" />
+      <node id="Nordea Bank" label="Nordea Bank" />
+      <node id="Aldata GOLD" label="Aldata GOLD" />
+      <node id="Symphony Services" label="Symphony Services" />
+      <node id="Holmen" label="Holmen" />
+      <node id="UPM-Kymmene" label="UPM-Kymmene" />
+      <node id="Lanxess" label="Lanxess" />
+      <node id="SEK 30bn" label="SEK 30bn" />
+      <node id="Home Communications" label="Home Communications" />
+      <node id="Personal Communications" label="Personal Communications" />
+      <node id="Communications Networks" label="Communications Networks" />
+      <node id="Global Transaction Services" label="Global Transaction Services" />
+      <node id="Pohjola Bank Group" label="Pohjola Bank Group" />
+      <node id="EUR 24.1 million" label="EUR 24.1 million" />
+      <node id="EUR5" label="EUR5" />
+      <node id="Okmetic Oyj" label="Okmetic Oyj" />
+      <node id="FISAS" label="FISAS" />
+      <node id="Fiskars Oyj Abp" label="Fiskars Oyj Abp" />
+      <node id="EUR 11.0" label="EUR 11.0" />
+      <node id="the Frozen Foods Business" label="the Frozen Foods Business" />
+      <node id="Finnish Bank" label="Finnish Bank" />
+      <node id="EPS" label="EPS" />
+      <node id="EUR 0.09" label="EUR 0.09" />
+      <node id="EUR 0.29" label="EUR 0.29" />
+      <node id="Digia" label="Digia" />
+      <node id="EUR61 .9 m" label="EUR61 .9 m" />
+      <node id="EUR196 .1 m" label="EUR196 .1 m" />
+      <node id="EUR21" label="EUR21" />
+      <node id="HKScan Finland" label="HKScan Finland" />
+      <node id="EUR 51.3" label="EUR 51.3" />
+      <node id="Ponsse" label="Ponsse" />
+      <node id="EUR 47.0" label="EUR 47.0" />
+      <node id="Bank of +àland 's" label="Bank of +àland 's" />
+      <node id="EUR 3.5 million" label="EUR 3.5 million" />
+      <node id="EUR 7 million" label="EUR 7 million" />
+      <node id="EUR 17.5 million" label="EUR 17.5 million" />
+      <node id="Autotank" label="Autotank" />
+      <node id="EUR 763mn" label="EUR 763mn" />
+      <node id="EUR 0.11" label="EUR 0.11" />
+      <node id="Affecto" label="Affecto" />
+      <node id="EUR6" label="EUR6" />
+      <node id="EUR8 .2 m" label="EUR8 .2 m" />
+      <node id="Vacon" label="Vacon" />
+      <node id="EUR 2,455.1" label="EUR 2,455.1" />
+      <node id="Order" label="Order" />
+      <node id="Nokia Multimedia 's" label="Nokia Multimedia 's" />
+      <node id="the Vegetable Oil Business" label="the Vegetable Oil Business" />
+      <node id="EUR 31.4" label="EUR 31.4" />
+      <node id="VAIAS" label="VAIAS" />
+      <node id="Rapala VMC Corp" label="Rapala VMC Corp" />
+      <node id="EUR 21.3" label="EUR 21.3" />
+      <node id="German Commerzbank AG 's" label="German Commerzbank AG 's" />
+      <node id="JPM" label="JPM" />
+      <node id="Fiskars" label="Fiskars" />
+      <node id="STAN" label="STAN" />
+      <node id="Standard Chartered" label="Standard Chartered" />
+      <node id="Royal Bank of Scotland" label="Royal Bank of Scotland" />
+      <node id="Barclays" label="Barclays" />
+      <node id="RBS" label="RBS" />
+      <node id="EUR107 .1" label="EUR107 .1" />
+      <node id="EUR297" label="EUR297" />
+      <node id="EUR193" label="EUR193" />
+      <node id="USD1" label="USD1" />
+      <node id="EUR179 .9 m" label="EUR179 .9 m" />
+      <node id="MegaFon" label="MegaFon" />
+      <node id="EUR 41.2" label="EUR 41.2" />
+      <node id="Machine Shop" label="Machine Shop" />
+      <node id="the Turku School of Economics" label="the Turku School of Economics" />
+      <node id="the University of Denver" label="the University of Denver" />
+      <node id="Finnish Metso Minerals" label="Finnish Metso Minerals" />
+      <node id="EUR18 .9" label="EUR18 .9" />
+      <node id="EUR 2.691 million" label="EUR 2.691 million" />
+      <node id="EUR647" label="EUR647" />
+      <node id="Ruukki" label="Ruukki" />
+      <node id="EURO" label="EURO" />
+      <node id="Ramirent 's" label="Ramirent 's" />
+      <node id="EUR 93.6" label="EUR 93.6" />
+      <node id="Sepp+ñl+ñ" label="Sepp+ñl+ñ" />
+      <node id="Vaahto Group" label="Vaahto Group" />
+      <node id="EUR 44.4" label="EUR 44.4" />
+      <node id="Finnish Bank of +àland 's" label="Finnish Bank of +àland 's" />
+      <node id="Finnish Aktia Group 's" label="Finnish Aktia Group 's" />
+      <node id="Division" label="Division" />
+      <node id="the Finland Futures Research Centre" label="the Finland Futures Research Centre" />
+      <node id="JPMorgan NYSE" label="JPMorgan NYSE" />
+      <node id="INGA" label="INGA" />
+      <node id="Consolidated" label="Consolidated" />
+      <node id="EUR0 .9" label="EUR0 .9" />
+      <node id="Danish Danske Bank" label="Danish Danske Bank" />
+      <node id="Finnish Sampo Bank" label="Finnish Sampo Bank" />
+      <node id="Salomon" label="Salomon" />
+      <node id="Wilson" label="Wilson" />
+      <node id="Amer Sports Corp." label="Amer Sports Corp." />
+      <node id="Atomic" label="Atomic" />
+      <node id="Elcoteq" label="Elcoteq" />
+      <node id="ADP News - Apr" label="ADP News - Apr" />
+      <node id="EUR2" label="EUR2" />
+      <node id="ADP News - Nov 13 ," label="ADP News - Nov 13 ," />
+      <node id="PCB" label="PCB" />
+      <node id="Orion" label="Orion" />
+      <node id="EUR 21.1" label="EUR 21.1" />
+      <node id="EUR 31.6" label="EUR 31.6" />
+      <node id="EUR 184 million" label="EUR 184 million" />
+      <node id="EUR 2" label="EUR 2" />
+      <node id="Cramo" label="Cramo" />
+      <node id="Aspocomp Group" label="Aspocomp Group" />
+      <node id="EUR 1.3" label="EUR 1.3" />
+      <node id="Tiimari" label="Tiimari" />
+      <node id="GTS" label="GTS" />
+      <node id="Citigroup , Inc ( NYSE : C" label="Citigroup , Inc ( NYSE : C" />
+      <node id="BasWare" label="BasWare" />
+      <node id="Ilkka Sihvo" label="Ilkka Sihvo" />
+      <node id="the Interim Report" label="the Interim Report" />
+      <node id="Lithuanian Social Insurance Institution" label="Lithuanian Social Insurance Institution" />
+      <node id="SODRA" label="SODRA" />
+      <node id="Tapiola Real Estate Oy" label="Tapiola Real Estate Oy" />
+      <node id="YIT Oyj" label="YIT Oyj" />
+      <node id="Board of Directors" label="Board of Directors" />
+      <node id="Nils-Erik Eklund" label="Nils-Erik Eklund" />
+      <node id="Bavarian Nordic" label="Bavarian Nordic" />
+      <node id="Copenhagen" label="Copenhagen" />
+      <node id="EUR 113,000" label="EUR 113,000" />
+      <node id="Uponor" label="Uponor" />
+      <node id="Capital Markets" label="Capital Markets" />
+      <node id="Kaupthing Bank" label="Kaupthing Bank" />
+      <node id="Connectivity Services" label="Connectivity Services" />
+      <node id="Invoice Automation" label="Invoice Automation" />
+      <node id="Basware" label="Basware" />
+      <node id="Basware Corporation" label="Basware Corporation" />
+      <node id="Kalnapilio-Tauro Grupe" label="Kalnapilio-Tauro Grupe" />
+      <node id="Kalnapilis-Tauras Group" label="Kalnapilis-Tauras Group" />
+      <node id="Componenta Oyj" label="Componenta Oyj" />
+      <node id="Krakeroy bascule bridge and steel" label="Krakeroy bascule bridge and steel" />
+      <node id="Aldata" label="Aldata" />
+      <node id="Microsoft" label="Microsoft" />
+      <node id="Sampo plc Danske Bank A-S Helsinki Branch" label="Sampo plc Danske Bank A-S Helsinki Branch" />
+      <node id="the Helsinki Stock Exchange" label="the Helsinki Stock Exchange" />
+      <node id="POP" label="POP" />
+      <node id="NASDAQ OMX Helsinki Ltd." label="NASDAQ OMX Helsinki Ltd." />
+      <node id="SSH COMMUNICATIONS SECURITY CORP Board" label="SSH COMMUNICATIONS SECURITY CORP Board" />
+      <node id="tel" label="tel" />
+      <node id="EUR 500,000" label="EUR 500,000" />
+      <node id="EUR500" label="EUR500" />
+      <node id="Progress Group" label="Progress Group" />
+      <node id="QPR" label="QPR" />
+      <node id="Hutchison Essar 's" label="Hutchison Essar 's" />
+      <node id="ABN Amro" label="ABN Amro" />
+      <node id="Rautaruukki Corp" label="Rautaruukki Corp" />
+      <node id="Brasil Telecom" label="Brasil Telecom" />
+      <node id="Tecnomen Oyj" label="Tecnomen Oyj" />
+      <node id="EUR 44.1" label="EUR 44.1" />
+      <node id="Nokia Siemens" label="Nokia Siemens" />
+      <node id="Nortel" label="Nortel" />
+      <node id="Theodosopoulos" label="Theodosopoulos" />
+      <node id="Verizon" label="Verizon" />
+      <node id="ADP News - Feb 13" label="ADP News - Feb 13" />
+      <node id="VAT" label="VAT" />
+    </nodes>
+    <edges>
+      <edge source="K+S Group" target="Ryobi Technologies , Inc." id="0">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="K+S Group" target="Fiskars Corporation" id="1">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="K+S Group" target="Husqvarna Outdoor Products Inc." id="2">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="K+S Group" target="Black &amp; Decker Corporation" id="3">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="K+S Group" target="Fiskars Brands" id="4">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Ryobi Technologies , Inc." target="Husqvarna Outdoor Products Inc." id="5">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Ryobi Technologies , Inc." target="Black &amp; Decker Corporation" id="6">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Ryobi Technologies , Inc." target="Fiskars Brands" id="7">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Ryobi Technologies , Inc." target="Fiskars Corporation" id="8">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Fiskars Corporation" target="Husqvarna Outdoor Products Inc." id="9">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Fiskars Corporation" target="Fiskars Brands" id="10">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Fiskars Corporation" target="Black &amp; Decker Corporation" id="11">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan" target="CapMan Life Science" id="12">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan" target="CapMan Technology" id="13">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan" target="CapMan Buyout" id="14">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan" target="CapMan Public Market" id="15">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan" target="EUR 3bn" id="16">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Life Science" target="CapMan Technology" id="17">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Life Science" target="CapMan Buyout" id="18">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Life Science" target="CapMan Public Market" id="19">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Technology" target="CapMan Buyout" id="20">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Technology" target="CapMan Public Market" id="21">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Buyout" target="CapMan Public Market" id="22">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Husqvarna Outdoor Products Inc." target="Fiskars Brands" id="23">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Husqvarna Outdoor Products Inc." target="Black &amp; Decker Corporation" id="24">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="BBH" target="Baltic Beverages Holding" id="25">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Fiskars Brands" target="Black &amp; Decker Corporation" id="26">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Fiskars Brands" target="EUR" id="27">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aktia" target="EUR" id="28">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Aktia" target="EUR 47.0" id="29">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aktia" target="EUR 44.4" id="30">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 11.4" id="31">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Board" id="32">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="HKScan Group" id="33">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="StoneGate" id="34">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="RAIVV" id="35">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 16.4 million" id="36">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Finnish Sanoma Learning &amp; Literature" id="37">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="SEK 30bn" id="38">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 24.1 million" id="39">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Group" id="40">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="FISAS" id="41">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Fiskars Oyj Abp" id="42">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Finnish Bank" id="43">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="HKScan Finland" id="44">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 47.0" id="45">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Bank of +àland 's" id="46">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 3.5 million" id="47">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 7 million" id="48">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 17.5 million" id="49">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 763mn" id="50">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Affecto" id="51">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Vacon" id="52">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 2,455.1" id="53">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Order" id="54">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Nokia Multimedia 's" id="55">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="the Vegetable Oil Business" id="56">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 31.4" id="57">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="VAIAS" id="58">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Rapala VMC Corp" id="59">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 21.3" id="60">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Fiskars" id="61">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Machine Shop" id="62">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 41.2" id="63">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Finnish Metso Minerals" id="64">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 2.691 million" id="65">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 93.6" id="66">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Sepp+ñl+ñ" id="67">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Vaahto Group" id="68">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 44.4" id="69">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Finnish Bank of +àland 's" id="70">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Finnish Aktia Group 's" id="71">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Elcoteq" id="72">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="ADP News - Apr" id="73">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Danish Danske Bank" id="74">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Finnish Sampo Bank" id="75">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Orion" id="76">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 21.1" id="77">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 31.6" id="78">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Cramo" id="79">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 113,000" id="80">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Uponor" id="81">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="Componenta Oyj" id="82">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 500,000" id="83">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR" target="EUR 44.1" id="84">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Board" target="EUR 30.000" id="85">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Board" target="the Board of Directors" id="86">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Board" target="Aspo" id="87">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="State" target="the State of Finland" id="88">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="State" target="Minister for Local Government" id="89">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="State" target="TeliaSonera" id="90">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="State" target="Financial Markets" id="91">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the State of Finland" target="Minister for Local Government" id="92">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the State of Finland" target="TeliaSonera" id="93">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the State of Finland" target="Financial Markets" id="94">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the State of Finland" target="the European Aeronautic Defense and Space Company EADS N.V." id="95">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Slovakia" target="Statistics Office" id="96">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Slovakia" target="E36 .4 million" id="97">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Statistics Office" target="E36 .4 million" id="98">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CapMan Plc 's" target="Company" id="99">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Company" target="Pertti Ervi" id="100">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Minister for Local Government" target="TeliaSonera" id="101">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Minister for Local Government" target="Financial Markets" id="102">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TeliaSonera" target="Financial Markets" id="103">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TeliaSonera" target="Pellissier" id="104">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="TeliaSonera" target="MegaFon" id="105">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Okmetic" target="Vantaa" id="106">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Satama" target="Trainers" id="107">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Satama" target="House" id="108">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Trainers" target="House" id="109">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Adak Projects" target="NSR" id="110">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Adak Projects" target="Avalon Minerals Ltd." id="111">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NSR" target="Avalon Minerals Ltd." id="112">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Comptel" target="OSS" id="113">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Comptel" target="Gibtelecom" id="114">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Comptel" target="EUR2" id="115">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="OSS" target="Gibtelecom" id="116">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cencorp" target="Savcor" id="117">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cencorp" target="FACE" id="118">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Savcor" target="FACE" id="119">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aalto University" target="Vaasa" id="120">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Componenta" target="EUR76" id="121">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Componenta" target="+àm+Ñl Components" id="122">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Componenta" target="the Finnish Componenta Group" id="123">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Lemminkainen Infra Oy 's" target="Lemminkainen Sverige AB" id="124">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Lemminkainen Talotekniikka Oy" target="Turun" id="125">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Rautaruukki" target="YIT" id="126">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Finnair" target="Manchester" id="127">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Finnair" target="Nokia Siemens Networks" id="128">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="+àm+Ñl Components" target="the Finnish Componenta Group" id="129">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="RAIVV" target="EUR 16.4 million" id="130">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cargotec Oyj" target="MacGregor" id="131">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Dibba , Emirate of Fujairah" target="Tanqia Dibba FZC" id="132">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Dibba , Emirate of Fujairah" target="POY" id="133">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Dibba , Emirate of Fujairah" target="Poyry Plc" id="134">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Tanqia Dibba FZC" target="POY" id="135">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Tanqia Dibba FZC" target="Poyry Plc" id="136">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="POY" target="Poyry Plc" id="137">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EVP" target="Healthcare &amp; Welfare" id="138">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Liberty" target="the New York Rangers" id="139">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Liberty" target="the New York Knickerbockers" id="140">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Liberty" target="the Hartford Wolf Pack" id="141">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Liberty" target="Cablevision Systems Corp." id="142">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Rangers" target="Cablevision Systems Corp." id="143">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Rangers" target="the Hartford Wolf Pack" id="144">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Rangers" target="the New York Knickerbockers" id="145">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Knickerbockers" target="Cablevision Systems Corp." id="146">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the New York Knickerbockers" target="the Hartford Wolf Pack" id="147">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the OMX Nordic Exchanges" target="the Stockholm Stock Exchange" id="148">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the OMX Nordic Exchanges" target="CapMan Plc Press" id="149">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the Stockholm Stock Exchange" target="CapMan Plc Press" id="150">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cablevision Systems Corp." target="the Hartford Wolf Pack" id="151">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ahold USA" target="CVS" id="152">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ahold USA" target="Wholesale Club" id="153">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ahold USA" target="Cumberland Farms" id="154">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="Wholesale Club" id="155">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="CVS" target="Cumberland Farms" id="156">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 30.000" target="the Board of Directors" id="157">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ragot" target="VMC" id="158">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ragot" target="Rapala" id="159">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ragot" target="Saint Marcel" id="160">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Avesta and Plate Service Centre Nordic" target="Special Plate" id="161">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Avesta and Plate Service Centre Nordic" target="Pressplate" id="162">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Special Plate" target="Pressplate" id="163">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the Board of Directors" target="Executive Committee" id="164">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the Board of Directors" target="Articles of Association" id="165">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Samsung" target="Samsung Mobile Innovator" id="166">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="S Group 's" target="Sanoma Corporation 's" id="167">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Group" target="HKScan" id="168">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Group" target="Division" id="169">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Group" target="Kaupthing Bank" id="170">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Group" target="Capital Markets" id="171">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="United Supermarkets , Market Street" target="United Supermercado" id="172">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Alma Media 's" target="EUR 4.88" id="173">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="F-Secure" target="Internet Service Providers" id="174">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="F-Secure" target="AV-Comparatives" id="175">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Pohjola Bank Plc HEL" target="VIII-2010 Pohjola Research" id="176">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Pohjola Bank Plc HEL" target="POH1S" id="177">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="VIII-2010 Pohjola Research" target="POH1S" id="178">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aspo" target="Goodwill" id="179">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aspo" target="Autotank" id="180">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Elcoteq 's Electronics Manufacturing Services" target="Manufacturing and Fulfillment" id="181">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Elcoteq 's Electronics Manufacturing Services" target="EMS" id="182">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Manufacturing and Fulfillment" target="EMS" id="183">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ahlstrom Corporation" target="HSEA" id="184">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ahlstrom Corporation" target="Innovation and Health" id="185">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="HSEA" target="Innovation and Health" id="186">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="The Stena Poseidon" target="the Panama Canal 's" id="187">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ABB Oy 's" target="Mr Skogster" id="188">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Kemira" target="NordAlu" id="189">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Kemira" target="Lanxess" id="190">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia" target="Nokia Siemens '" id="191">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia" target="N96" id="192">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia" target="NYSE" id="193">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia" target="POP" id="194">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia" target="Hutchison Essar 's" id="195">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Bhushan Steel and Strips Ltd." target="HELSINKI AFX - KCI Konecranes" id="196">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Vaahto Pulp &amp; Paper" target="the Ingerois Board Mill" id="197">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Vaahto Pulp &amp; Paper" target="Finnish Vaahto Group" id="198">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the Ingerois Board Mill" target="Finnish Vaahto Group" id="199">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Airtel" target="Tata" id="200">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NYSE" target="German Commerzbank AG 's" id="201">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NYSE" target="INGA" id="202">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NYSE" target="JPM" id="203">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="British Airways" target="OneWorld" id="204">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="British Airways" target="American Airlines" id="205">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="OneWorld" target="American Airlines" id="206">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Wholesale Club" target="Cumberland Farms" id="207">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ASSA ABLOY Kaupthing Bank" target="Assa Abloy AB" id="208">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EQT" target="Salcomp" id="209">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="National Endowment for the Arts" target="the Institute of Museum and Library Services" id="210">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Rapala" target="Saint Marcel" id="211">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Executive Committee" target="Articles of Association" id="212">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Service Credit Union" target="the Defense Credit Union Council" id="213">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NDA" target="Nordea Bank" id="214">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aldata GOLD" target="Symphony Services" id="215">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Holmen" target="UPM-Kymmene" id="216">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Home Communications" target="Personal Communications" id="217">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Home Communications" target="Communications Networks" id="218">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Personal Communications" target="Communications Networks" id="219">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Global Transaction Services" target="Pohjola Bank Group" id="220">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Global Transaction Services" target="GTS" id="221">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Global Transaction Services" target="Citigroup , Inc ( NYSE : C" id="222">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Pohjola Bank Group" target="GTS" id="223">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Pohjola Bank Group" target="Citigroup , Inc ( NYSE : C" id="224">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 24.1 million" target="FISAS" id="225">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 24.1 million" target="Fiskars Oyj Abp" id="226">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR5" target="Okmetic Oyj" id="227">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="FISAS" target="Fiskars Oyj Abp" id="228">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 11.0" target="the Frozen Foods Business" id="229">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Finnish Bank" target="EUR 21.3" id="230">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EPS" target="EUR 0.09" id="231">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EPS" target="EUR 0.29" id="232">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EPS" target="EUR 0.11" id="233">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Digia" target="EUR61 .9 m" id="234">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR196 .1 m" target="EUR21" id="235">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 51.3" target="Ponsse" id="236">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 17.5 million" target="Rapala VMC Corp" id="237">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR6" target="EUR8 .2 m" id="238">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="VAIAS" target="EUR2" id="239">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Rapala VMC Corp" target="EUR18 .9" id="240">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="German Commerzbank AG 's" target="JPM" id="241">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="German Commerzbank AG 's" target="INGA" id="242">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="JPMorgan NYSE" id="243">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="JPM" target="INGA" id="244">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="STAN" target="Standard Chartered" id="245">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="STAN" target="Royal Bank of Scotland" id="246">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="STAN" target="Barclays" id="247">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="STAN" target="RBS" id="248">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Standard Chartered" target="RBS" id="249">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Standard Chartered" target="Barclays" id="250">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Standard Chartered" target="Royal Bank of Scotland" id="251">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Royal Bank of Scotland" target="RBS" id="252">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Royal Bank of Scotland" target="Barclays" id="253">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Barclays" target="RBS" id="254">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR107 .1" target="EUR297" id="255">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR193" target="USD1" id="256">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR193" target="EUR179 .9 m" id="257">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="USD1" target="EUR179 .9 m" id="258">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="USD1" target="Lithuanian Social Insurance Institution" id="259">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="USD1" target="SODRA" id="260">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 41.2" target="Machine Shop" id="261">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the Turku School of Economics" target="the University of Denver" id="262">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the Turku School of Economics" target="the Finland Futures Research Centre" id="263">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="the University of Denver" target="the Finland Futures Research Centre" id="264">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR647" target="Ruukki" id="265">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruukki" target="EUR2" id="266">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruukki" target="Krakeroy bascule bridge and steel" id="267">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EURO" target="Ramirent 's" id="268">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Consolidated" target="EUR0 .9" id="269">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Danish Danske Bank" target="Finnish Sampo Bank" id="270">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Salomon" target="Wilson" id="271">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Salomon" target="Amer Sports Corp." id="272">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Salomon" target="Atomic" id="273">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Wilson" target="Atomic" id="274">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Wilson" target="Amer Sports Corp." id="275">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Amer Sports Corp." target="Atomic" id="276">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ADP News - Nov 13 ," target="PCB" id="277">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ADP News - Nov 13 ," target="Aspocomp Group" id="278">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="PCB" target="Aspocomp Group" id="279">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 184 million" target="EUR 2" id="280">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="EUR 1.3" target="Tiimari" id="281">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="GTS" target="Citigroup , Inc ( NYSE : C" id="282">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="BasWare" target="Ilkka Sihvo" id="283">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="BasWare" target="the Interim Report" id="284">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ilkka Sihvo" target="the Interim Report" id="285">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Lithuanian Social Insurance Institution" target="SODRA" id="286">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Tapiola Real Estate Oy" target="YIT Oyj" id="287">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Board of Directors" target="Nils-Erik Eklund" id="288">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Bavarian Nordic" target="Copenhagen" id="289">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Capital Markets" target="Kaupthing Bank" id="290">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Connectivity Services" target="Invoice Automation" id="291">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Connectivity Services" target="Basware" id="292">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Connectivity Services" target="Basware Corporation" id="293">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Invoice Automation" target="Basware" id="294">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Invoice Automation" target="Basware Corporation" id="295">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Basware" target="Basware Corporation" id="296">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Kalnapilio-Tauro Grupe" target="Kalnapilis-Tauras Group" id="297">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Componenta Oyj" target="EUR 500,000" id="298">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Componenta Oyj" target="EUR500" id="299">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Aldata" target="Microsoft" id="300">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Sampo plc Danske Bank A-S Helsinki Branch" target="the Helsinki Stock Exchange" id="301">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NASDAQ OMX Helsinki Ltd." target="SSH COMMUNICATIONS SECURITY CORP Board" id="302">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="NASDAQ OMX Helsinki Ltd." target="tel" id="303">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="SSH COMMUNICATIONS SECURITY CORP Board" target="tel" id="304">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Progress Group" target="QPR" id="305">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ABN Amro" target="Rautaruukki Corp" id="306">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Brasil Telecom" target="Tecnomen Oyj" id="307">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia Siemens" target="Nortel" id="308">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia Siemens" target="Theodosopoulos" id="309">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nokia Siemens" target="Verizon" id="310">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nortel" target="Theodosopoulos" id="311">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Nortel" target="Verizon" id="312">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Theodosopoulos" target="Verizon" id="313">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ADP News - Feb 13" target="VAT" id="314">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

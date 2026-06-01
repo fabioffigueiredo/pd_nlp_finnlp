@@ -1,0 +1,61 @@
+# =============================================================================
+# FinNLP - Pipeline de NLP para Atribuicao de Performance e Inteligencia de Mercado
+# Dependencias fixadas (pinned) para garantir reprodutibilidade do pipeline.
+# Ambiente alvo: Python 3.12 (uv/Homebrew). CPU-only, sem GPU dedicada.
+#
+# Nota de compatibilidade Python 3.12:
+#   - numpy 1.26.4 + scipy 1.12.0: trava necessaria — o gensim 4.3.2 usa
+#     scipy.linalg.triu (removida no scipy 1.13) e quebra com numpy >= 2.0.
+#   - Python 3.13 incompativel com este stack (scipy < 1.14 sem wheels 3.13).
+# =============================================================================
+
+# --- Nucleo de dados e computacao numerica ---
+numpy==1.26.4
+scipy==1.12.0
+pandas==2.2.2
+
+# --- Fase 0: Coleta (web scraping + corpus Hugging Face) ---
+requests==2.31.0
+beautifulsoup4==4.12.3
+datasets==2.19.0
+
+# --- Fase 1: Pre-processamento linguistico (NLTK + spaCy) ---
+nltk==3.8.1
+spacy==3.7.4
+
+# --- Fase 2: Representacao vetorial e busca semantica ---
+scikit-learn==1.4.2
+gensim==4.3.2
+
+# --- Fase 3: Modelagem, classificacao, topicos e tracking ---
+pyLDAvis==3.4.1
+mlflow==2.12.1
+
+# --- Fase 4: NER, grafo de conhecimento e engenharia de dados (SCD2) ---
+networkx==3.3
+pyvis==0.3.2
+python-Levenshtein==0.25.1
+SQLAlchemy==2.0.30
+
+# --- Fase 5: Visualizacao ---
+matplotlib==3.8.4
+seaborn==0.13.2
+wordcloud==1.9.3
+
+# --- Geracao do relatorio PDF ---
+fpdf2==2.8.4
+
+# --- Ambiente de notebook / reprodutibilidade ---
+jupyter==1.0.0
+ipykernel==6.29.4
+
+# --- Infraestrutura do venv (pin obrigatorio) ---
+# setuptools >= 81.0 removeu pkg_resources do namespace; mlflow 2.12.x depende
+# dele. Travando em < 81.
+setuptools<81
+
+# =============================================================================
+# Modelos spaCy (instalar apos o pip install -r requirements.txt):
+#   python -m spacy download pt_core_news_sm
+#   python -m spacy download en_core_web_sm
+# =============================================================================
