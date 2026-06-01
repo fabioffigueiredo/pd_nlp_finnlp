@@ -168,7 +168,7 @@ mlflow ui                          # http://localhost:5000
 - **Complexidade ciclomática < 10** por função (SOLID / SRP).
 - **DRY** — lógica centralizada em `src/`, reutilizada pelo notebook.
 - **Reprodutibilidade**: `random_state=42` em todas as etapas estocásticas.
-- **Narrativa em 1ª pessoa** nas docstrings e células Markdown.
+
 
 ---
 <div align="center">
